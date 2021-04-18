@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-mport",
+  "license": "MIT",
+  "main": "index.js",
+  "version": "1.0.3",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "deprecated": false,
+  "description": "A colorful and parallax gatsby theme for portfolio with theme-ui",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@mdx-js/mdx": "1.6.22",
+    "@theme-ui/presets": "^0.6.2",
+    "gatsby-plugin-emotion": "^6.2.0",
+    "gatsby-plugin-mdx": "1.9.0",
+    "gatsby-plugin-react-helmet": "^4.2.0",
+    "gatsby-plugin-theme-ui": "^0.6.2",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^3.2.0",
+    "react-helmet": "6.1.0",
+    "react-spring": "8.0.27",
+    "theme-ui": "^0.6.2"
+  },
+  "devDependencies": {
+    "gatsby": "^3.2.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "homepage": "https://mizan.dev",
+  "keywords": [
+    "Gatsby",
+    "Gatsby Theme",
+    "Gatsby Theme-UI",
+    "Personal Protfolio with Gatsby"
+  ],
+  "peerDependencies": {
+    "gatsby": "^3.2.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MizanDev/npm-package-starter.git",
+    "directory": "gatsby-themes/gatsby-mport"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  }
+}
