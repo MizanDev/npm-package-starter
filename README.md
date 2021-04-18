@@ -29,7 +29,7 @@ Playful and Colorful One-Page portfolio featuring Parallax effects and animation
 This will generate a new site (with the folder name "mport") that pre-configures use of the theme including example content and additional plugins.
 
 ```sh
-gatsby new mport MizanDev/gatsby-mport
+gatsby new mport @mizandev/gatsby-mport
 ```
 
 [**View the starter's code**](https://github.com/MizanDev/gatsby-mport)
@@ -50,7 +50,7 @@ gatsby new mport MizanDev/gatsby-mport
 module.exports = {
   plugins: [
     {
-      resolve: `@MizanDev/gatsby-mport`,
+      resolve: `@mizandev/gatsby-mport`,
       options: {
         // basePath defaults to `/`
         basePath: `/sideproject`,
